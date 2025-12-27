@@ -1,10 +1,38 @@
-GEARGUARD MYSQL – FIXED VERSION
+🚧 GearGuard – Maintenance Management System
+📌 Overview
 
-1. Import schema:
-mysql -u root -p gear_guard_db < backend/database/schema.sql
+GearGuard is a web-based Maintenance Management System designed to help organizations track equipment, manage maintenance requests, and streamline technician workflows. The system supports both users (who raise requests) and technicians (who handle and resolve them).
 
-2. Install deps:
-npm install express mysql2 cors
+🧩 Key Features
 
-3. Run:
-node backend/server.js
+Equipment-wise maintenance request creation
+
+Automatic routing of requests to the appropriate maintenance team
+
+Role-based access (User / Technician)
+
+Technician Kanban board for task tracking
+
+Preventive and corrective maintenance support
+
+Work duration and status tracking
+
+🛠 Tech Stack
+
+Frontend
+
+React (Vite)
+
+TypeScript
+
+Tailwind CSS
+
+Backend
+
+Node.js
+
+Express.js
+
+Database
+
+MySQL
